@@ -10,7 +10,7 @@
   "scripts": {
     "doc": "node_modules/.bin/jsdoc bit-stream.js -d doc",
     "lint": "node_modules/.bin/eslint bit-stream.js",
-    "test": "node_modules/.bin/tape tests/*.js | node_modules/.bin/tap-spec" // tap-spec or faucet
+    "test": "node_modules/.bin/tape tests/*.js | node_modules/.bin/tap-spec"
   },
   "author": "Matthew Barker",
   "license": "ISC",
