@@ -5,7 +5,7 @@ Write individual bits to a node stream:
 - extends [stream.Writable](https://nodejs.org/api/stream.html#stream_class_stream_writable)
 - wraps [stream.Buffer](https://nodejs.org/api/buffer.html)
 
-**N.B. The version of Node written for and testing against is 6.1.0**
+**N.B. The version of Node written for and tested against is 6.1.0**
 
 ## Methods
 
