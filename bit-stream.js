@@ -10,7 +10,7 @@ const BUFFER_SIZE = 1024;
  *
  * @extends stream.Writable
  */
-export default class BitStream extends stream.Writable {
+class BitStream extends stream.Writable {
     /**
      * Constructs a new instance of the BitStream class.
      *
@@ -348,3 +348,5 @@ export default class BitStream extends stream.Writable {
         this.offset = this.buffer.writeUIntLE(value, this.offset, byteLength);
     }
 }
+
+module.exports = BitStream;
