@@ -56,7 +56,7 @@ then calling the corresponding method on the buffer:
 ### constructor
 
 ```javascript
-const BitStream = require('bit-stream');
+const BitStream = require('node-bit-stream');
 const bitStream = new BitStream();
 ```
 
