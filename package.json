@@ -1,5 +1,5 @@
 {
-  "name": "bit-stream",
+  "name": "node-bit-stream",
   "version": "1.0.0",
   "description": "Write individual bits to a node stream",
   "main": "bit-stream.js",
